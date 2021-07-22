@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="contenedorHeader">
+            <nav class="navBar">
+
+                <ul id="navUl">
+                    <li class="navItem"><a href="#">Home</a></li>
+                    <li class="navItem"><a href="#concepto">¿Qué es?</a></li>
+                    <li class="navItem"><a href="#comprobador">Comprobador de frases</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+      
+        <section id="concepto" class="concepto">
+            <h1 id="queEs">¿Que es un palindromo?</h1>
+            <p id="concepto">Un palíndromo (del griego πάλιν δρóμος, palin dromos, ‘volver a ir atrás’), también
+                llamado
+                palíndromo, palíndroma o palindroma, es una palabra o frase que se lee igual en un sentido que en
+                otro
+                (por ejemplo; Ana, Anna, Otto). Si se trata de números en lugar de letras, se llama capicúa.</p>
+        </section>
+        <section class="articulo">
+            <article id="notaCur">Habitualmente, las frases palindrómicas se resienten en su significado cuanto más
+                largas son.
+            </article>
+        </section>
+
+        <section id="video">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/1hbsxyHXmYQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+
+        <section id="comprobador">
+
+            <form class="formulario" id="formulario">
+                <label class="controlLabel">Comprueba si la frase es palindromo</label><br>
+
+                <input type="text" id="frase" placeholder="Ingrese la palabra, frase o numero">
+                <br>
+
+                <button onclick="recogerDatos()" type="button" id="boton">Comprobar</button>
+                </button><br><br>
+            </form>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+        Desarrollado por Ilan Díaz
+    </footer>
+    <script src="./Script/scrip.js"></script>
+    </div>
+</body>
+
+</html>
